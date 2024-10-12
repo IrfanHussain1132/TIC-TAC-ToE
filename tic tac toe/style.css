@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    text-align: center;
+    background-image: url(qaz.jpg);
+    background-size: cover;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+}
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: #7f0777;
+    background-color: #FAF2A1;
+}
+.reset{
+    padding: 1rem;
+    background-color: rgba(217, 27, 10, 0.892);
+    color: aliceblue;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.NEW{
+    padding: 1rem;
+    background-color: rgb(13, 193, 28);
+    color: aliceblue;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.reset:hover{
+    border: 2px white solid;
+}
+.NEW:hover{
+    border: 2px white solid;
+}
+#msg{
+    position: relative;
+    top: 50px;
+    color: #dbdb03;
+    font-size: 8vmin;
+}
+.msg-container{
+height: 10vmin;
+}
+.hide{
+    display: none;
+}
